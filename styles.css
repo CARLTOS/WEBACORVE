@@ -222,7 +222,7 @@ p {
     align-items: center;
     position: relative;
     padding-top: 80px;
-    background: url('https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80') center/cover no-repeat;
+    background: url('hero_hands.png') center/cover no-repeat;
 }
 
 .hero-overlay {
