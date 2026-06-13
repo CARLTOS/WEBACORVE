@@ -32,7 +32,7 @@
         <div class="nav-container">
             <a href="#" class="logo">
                 <img src="https://i.postimg.cc/05dvVSCM/logo-ACORVE.jpg" alt="Logo ACORVE">
-                <span>ACORVE</span>
+                <span class="logo-text">ACORVE</span>
             </a>
             <div class="hamburger" id="hamburger">
                 <i class="fas fa-bars"></i>
@@ -49,12 +49,9 @@
 
     <!-- Hero Section -->
     <section id="inicio" class="hero">
-        <div class="hero-bg-shapes">
-            <div class="shape shape-1"></div>
-            <div class="shape shape-2"></div>
-            <div class="shape shape-3"></div>
-        </div>
+        <div class="hero-overlay"></div>
         <div class="hero-content fade-in-up">
+            <img src="https://i.postimg.cc/05dvVSCM/logo-ACORVE.jpg" alt="Logo ACORVE Gran Formato" class="hero-main-logo">
             <h1>Transformando el <span>Reciclaje</span><br>Impulsando el Futuro</h1>
             <p>Apoyamos a recicladores formales e informales en Bogotá, promoviendo el desarrollo económico, social y el cuidado de nuestro medio ambiente a través del aprovechamiento responsable.</p>
             <div class="hero-buttons">
@@ -72,6 +69,18 @@
                     <h2>¿Quiénes Somos?</h2>
                     <p>La <strong>Asociación Colombiana de Recicladores Vendedores (ACORVE)</strong>, constituida legalmente desde 2018 (NIT 901184907-2), es una Entidad Sin Ánimo de Lucro comprometida con la dignificación de la labor del reciclador.</p>
                     <p>Nuestro propósito es brindar apoyo constante a los recolectores de Bogotá, fomentando su crecimiento económico y social, y participando activamente en el componente de aprovechamiento del servicio público de aseo.</p>
+                    
+                    <div class="mision-vision">
+                        <div class="mv-box">
+                            <h3><i class="fas fa-bullseye"></i> Nuestra Misión</h3>
+                            <p>Dignificar la labor del reciclador formal e informal mediante la recolección, clasificación y comercialización de residuos aprovechables, promoviendo el desarrollo económico de nuestros asociados y el bienestar ambiental de nuestra ciudad.</p>
+                        </div>
+                        <div class="mv-box">
+                            <h3><i class="fas fa-eye"></i> Nuestra Visión</h3>
+                            <p>Ser reconocidos para el 2030 como la asociación de recicladores líder en Bogotá por nuestra eficiencia en la recuperación de materiales, innovación comunitaria y la mejora sustancial en la calidad de vida de todos nuestros recicladores afiliados.</p>
+                        </div>
+                    </div>
+
                     <div class="stats">
                         <div class="stat-item">
                             <h3>2018</h3>
@@ -103,7 +112,7 @@
                         <i class="fas fa-recycle"></i>
                     </div>
                     <h3>Recuperación de Materiales</h3>
-                    <p>Clasificamos y recuperamos materiales aprovechables para reintegrarlos a la cadena productiva, reduciendo la contaminación ambiental.</p>
+                    <p>Clasificamos y recuperamos materiales aprovechables para reintegrarlos a la cadena productiva, reduciendo la contaminación ambiental y evitando que lleguen a los rellenos sanitarios.</p>
                 </div>
                 <!-- Card 2 -->
                 <div class="service-card glass-card">
@@ -111,7 +120,7 @@
                         <i class="fas fa-truck-loading"></i>
                     </div>
                     <h3>Recolección Especializada</h3>
-                    <p>Recolección de desechos no peligrosos. Trabajamos de la mano con las comunidades para asegurar una disposición responsable.</p>
+                    <p>Operamos de la mano con las comunidades, condominios y comercios de Bogotá para asegurar la recolección oportuna y el transporte adecuado de los materiales reciclables hacia nuestras estaciones.</p>
                 </div>
                 <!-- Card 3 -->
                 <div class="service-card glass-card">
@@ -119,7 +128,7 @@
                         <i class="fas fa-hands-helping"></i>
                     </div>
                     <h3>Comercialización Social</h3>
-                    <p>Comercializamos desperdicios, chatarra y recuperamos artículos (muebles, ropa, electrodomésticos) para prolongar su vida útil.</p>
+                    <p>Garantizamos el comercio al por mayor de los desperdicios y chatarra, asegurando que los recicladores reciban un precio justo, e impulsamos la economía circular reutilizando artículos en buen estado.</p>
                 </div>
             </div>
         </div>
@@ -129,47 +138,58 @@
     <section id="transparencia" class="section transparencia">
         <div class="container glass-card reveal">
             <h2 class="section-title text-center"><i class="fas fa-file-contract"></i> Transparencia DIAN</h2>
-            <p class="text-center mb-4">Dando cumplimiento a la normatividad de la Dirección de Impuestos y Aduanas Nacionales (DIAN) para Entidades Sin Ánimo de Lucro (Régimen Especial), ponemos a disposición del público la siguiente información y documentación de nuestra asociación.</p>
+            <p class="text-center mb-4">Dando cumplimiento a la normatividad de la Dirección de Impuestos y Aduanas Nacionales (DIAN) para Entidades Sin Ánimo de Lucro (Régimen Especial), ponemos a disposición del público nuestra información legal, financiera y de gestión.</p>
             
-            <div class="dian-grid">
-                <div class="dian-item">
-                    <div class="dian-icon"><i class="fas fa-id-card"></i></div>
-                    <div class="dian-info">
-                        <h4>Registro Único Tributario (RUT)</h4>
-                        <p>Documento oficial que nos identifica ante la DIAN (NIT: 901184907-2).</p>
+            <!-- Historial de Años -->
+            <div class="year-history">
+                <div class="year-block">
+                    <h3 class="year-title">Vigencia 2026</h3>
+                    <div class="dian-grid">
+                        <div class="dian-item">
+                            <div class="dian-icon"><i class="fas fa-id-card"></i></div>
+                            <div class="dian-info">
+                                <h4>RUT - 2026</h4>
+                                <p>Registro Único Tributario actualizado.</p>
+                            </div>
+                            <a href="#" class="btn-download"><i class="fas fa-file-pdf"></i> Ver Documento</a>
+                        </div>
+                        
+                        <div class="dian-item">
+                            <div class="dian-icon"><i class="fas fa-chart-pie"></i></div>
+                            <div class="dian-info">
+                                <h4>Estados Financieros 2026</h4>
+                                <p>Balance general y estado de resultados de la última vigencia fiscal.</p>
+                            </div>
+                            <a href="#" class="btn-download"><i class="fas fa-file-pdf"></i> Ver Documento</a>
+                        </div>
+                        
+                        <div class="dian-item">
+                            <div class="dian-icon"><i class="fas fa-book"></i></div>
+                            <div class="dian-info">
+                                <h4>Certificado Representación</h4>
+                                <p>Cámara de Comercio (Renovación 2026).</p>
+                            </div>
+                            <a href="#" class="btn-download"><i class="fas fa-file-pdf"></i> Ver Documento</a>
+                        </div>
+                        
+                        <div class="dian-item">
+                            <div class="dian-icon"><i class="fas fa-users"></i></div>
+                            <div class="dian-info">
+                                <h4>Acta y Estatutos</h4>
+                                <p>Estatutos vigentes para el año en curso.</p>
+                            </div>
+                            <a href="#" class="btn-download"><i class="fas fa-file-pdf"></i> Ver Documento</a>
+                        </div>
                     </div>
-                    <a href="#" class="btn-download" title="Sube el RUT en formato PDF y enlaza aquí"><i class="fas fa-file-pdf"></i> Ver Documento</a>
                 </div>
-                
-                <div class="dian-item">
-                    <div class="dian-icon"><i class="fas fa-chart-pie"></i></div>
-                    <div class="dian-info">
-                        <h4>Estados Financieros</h4>
-                        <p>Balance general y estado de resultados de la última vigencia fiscal.</p>
-                    </div>
-                    <a href="#" class="btn-download" title="Sube los Estados Financieros y enlaza aquí"><i class="fas fa-file-pdf"></i> Ver Documento</a>
+
+                <!-- Plantilla para años anteriores/futuros -->
+                <!--
+                <div class="year-block">
+                    <h3 class="year-title">Vigencia 2025</h3>
+                    <div class="dian-grid">...</div>
                 </div>
-                
-                <div class="dian-item">
-                    <div class="dian-icon"><i class="fas fa-book"></i></div>
-                    <div class="dian-info">
-                        <h4>Certificado de Representación</h4>
-                        <p>Documento expedido por la Cámara de Comercio de Bogotá.</p>
-                    </div>
-                    <a href="#" class="btn-download" title="Sube el Certificado y enlaza aquí"><i class="fas fa-file-pdf"></i> Ver Documento</a>
-                </div>
-                
-                <div class="dian-item">
-                    <div class="dian-icon"><i class="fas fa-users"></i></div>
-                    <div class="dian-info">
-                        <h4>Acta de Constitución / Estatutos</h4>
-                        <p>Documentos fundacionales y reglas de funcionamiento de ACORVE.</p>
-                    </div>
-                    <a href="#" class="btn-download" title="Sube los Estatutos y enlaza aquí"><i class="fas fa-file-pdf"></i> Ver Documento</a>
-                </div>
-            </div>
-            <div class="admin-note">
-                <i class="fas fa-info-circle"></i> <strong>Nota:</strong> Los botones están listos para enlazar los archivos PDF que exige la DIAN.
+                -->
             </div>
         </div>
     </section>
